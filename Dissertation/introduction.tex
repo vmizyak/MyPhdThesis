@@ -1,0 +1,24 @@
+\chapter*{Введение}							% Заголовок
+\addcontentsline{toc}{chapter}{Введение}	% Добавляем его в оглавление
+
+\newcommand{\actuality}{}
+\newcommand{\aim}{\textbf{Целью}}
+\newcommand{\tasks}{\textbf{задачи}}
+\newcommand{\defpositions}{\textbf{Основные положения, выносимые на~защиту:}}
+\newcommand{\novelty}{\textbf{Научная новизна:}}
+\newcommand{\influence}{\textbf{Научная и практическая значимость}}
+\newcommand{\reliability}{\textbf{Степень достоверности}}
+\newcommand{\probation}{\textbf{Апробация работы.}}
+\newcommand{\contribution}{\textbf{Личный вклад.}}
+\newcommand{\publications}{\textbf{Публикации.}}
+
+\input{common/characteristic} % Характеристика работы по структуре во введении и в автореферате не отличается (ГОСТ Р 7.0.11, пункты 5.3.1 и 9.2.1), потому её загружаем из одного и того же внешнего файла, предварительно задав форму выделения некоторым параметрам
+
+\textbf{Объем и структура работы.} Диссертация состоит из~введения, четырёх глав, заключения и~двух приложений.
+%% на случай ошибок оставляю исходный кусок на месте, закомментированным
+%Полный объём диссертации составляет  \ref*{TotPages}~страницу с~\totalfigures{}~рисунками и~\totaltables{}~таблицами. Список литературы содержит \total{citenum}~наименований.
+%
+Полный объём диссертации составляет \formbytotal{TotPages}{страниц}{у}{ы}{} 
+с~\formbytotal{totalcount@figure}{рисунк}{ом}{ами}{ами}
+и~\formbytotal{totalcount@table}{таблиц}{ей}{ами}{ами}. Список литературы содержит  
+\formbytotal{citenum}{наименован}{ие}{ия}{ий}.
